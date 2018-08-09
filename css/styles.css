@@ -1,0 +1,14 @@
+.bold{
+  font-weight: bold;
+}
+button{
+  margin: 30px;
+}
+
+img {
+  width: 400px;
+}
+
+.vanessa, .zac, .brutal {
+  display: none;
+}
