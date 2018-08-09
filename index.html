@@ -5,51 +5,38 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Celebrity dating</title>
+  <title>Triangle</title>
 </head>
 <body>
   <div class="container">
-    <h3>Celebrity Dating</h3>
-    <form id="celebrity-dating">
-      <div class="radio">
-        <p class="bold">What's your gender?</p>
-      <div id="gender">
-        <label>
-          <input type="radio" name="gender" value="male">
-          Male
-        </label>
-      </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="gender" value="female">
-          Female
-        </label>
-      </div>
-        <div id="age" class="form-group">
-          <label for="age" class="bold">How old are you?</label>
-          <input id="age" class="form-control" type="text">
+    <h3>Triangle!</h3>
+    <form>
+        <div class="form-group">
+          <label for="sideA">Enter value for side A</label>
+          <input id="sideA" class="form-control" type="number">
         </div>
-        <p class="bold">Hobbies</p>
-        <select class="form-control" id="hobbies">
-          <option value="hiking">Hiking</option>
-          <option value="eating">Eating</option>
-          <option vlaue="bike">Biking</option>
-          <option value="fashion">Fashion</option>
-        </select>
-      </div>
-      <button class="btn btn-success" type="submit">Submit</button>
+        <div class="form-group">
+          <label for="sideB">Enter value for side C</label>
+          <input id="sideB" class="form-control" type="number">
+        </div>
+        <div class="form-group">
+          <label for="sideC">Enter value for side C</label>
+          <input id="sideC" class="form-control" type="number">
+        </div>
     </form>
-    <div class="vanessa">
-      <img src="img/vanessa.jpg" alt="vanessa hudgens">
-      <p>You matched with vanessa hudgens!!!!!!!</p>
+    <div id="equilateral">
+      <p>It is an Equilateral triangle</p>
     </div>
-    <div class="zac">
-      <img src="img/zac.jpg" alt="Zac Efron">
-      <p>You matched with Zac Efron!!!!!!!</p>
+    <div id="isosceles">
+      <p>It is an Isosceles triangle</p>
     </div>
-    <div class="brutal">
-      <p>Sorry! Get a dog</p>
+    <div id="scalene">
+      <p>It is an Scalene triangle</p>
     </div>
+    <div id="nope">
+      <p>It is not a triangle</p>
+    </div>
+
   </div>
 </body>
 </html>
